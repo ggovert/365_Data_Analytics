@@ -1,0 +1,16 @@
+action,track,count
+"Enrolled in a track",1,2999
+"Enrolled in a track",2,3915
+"Enrolled in a track",3,960
+"Attempted a course exam",1,406
+"Attempted a course exam",2,339
+"Attempted a course exam",3,183
+"Completed a course exam",1,365
+"Completed a course exam",2,323
+"Completed a course exam",3,168
+"Attempted a final exam",1,24
+"Attempted a final exam",2,33
+"Attempted a final exam",3,17
+"Earned a career track certificate",1,16
+"Earned a career track certificate",2,15
+"Earned a career track certificate",3,12
