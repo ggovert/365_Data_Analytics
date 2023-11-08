@@ -45,7 +45,7 @@ FROM table_a a LEFT JOIN table_b b USING (student_id);
 After analyzing the data, I discovered that there are some duplicate data entries from the same student in the student_engagement table as a result of the free and paid subscriptions. I did this by using nested functions in SQL and ensuring that I only used the paid subscription as the beginning of engagement data.After that i save this new data as csv with the name student_engagement.csv
 
 ### Results/Findings
-Tableau Dashboard:[Dashboard] (https://public.tableau.com/app/profile/giovanni.govert/viz/DataAnalysison365Platform/Overview?publish=yes) 
+[Tableau Dashboard](https://public.tableau.com/app/profile/giovanni.govert/viz/DataAnalysison365Platform/Overview?publish=yes) 
 
 ### Recommendation
 
