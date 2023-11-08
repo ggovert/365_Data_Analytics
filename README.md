@@ -42,12 +42,27 @@ WHEN x THEN y
 END as paid
 FROM table_a a LEFT JOIN table_b b USING (student_id);
 ```
-After analyzing the data, I discovered that there are some duplicate data entries from the same student in the student_engagement table as a result of the free and paid subscriptions. I did this by using nested functions in SQL and ensuring that I only used the paid subscription as the beginning of engagement data.After that i save this new data as csv with the name student_engagement.csv
+After analyzing the data, I discovered that there are some duplicate data entries from the same student in the student_engagement table as a result of the free and paid subscriptions. I did this by using nested functions in SQL and ensuring that I only used the paid subscription as the beginning of engagement data.After that, i save this new data as csv with the name student_engagement.csv
 
-### Results/Findings
+### Creating Dashboard
+Create 5 dashboards in total to analyze the data
 [Tableau Dashboard](https://public.tableau.com/app/profile/giovanni.govert/viz/DataAnalysison365Platform/Overview?publish=yes) 
 
+### Results/Findings
+1. There was a significant increase in engagement from August to September 2022 when compared to the previous month. It is because of the marketing campaign that took place that month. We can conclude that the marketing campaign (the free days) was successful in increasing student engagement.
+- Surprisingly, these increases in engagement are only visible for free students. There was no discernible increase in engagement among paid students.
+2. According to the overall engagement data, there will be a 300% increase in student engagement between January and October 2022.
+3. There was an increase in the percentage of people who registered and turned into students around September 2022. We conclude that the gamification strategy can increase the percentage of students who are onboarding.
+4. The majority of free plan students are only engaged for the first month, after which their engagement drops dramatically. The majority of students, according to the hypothesis, cancelled their subscriptions before the 30-day period expired.
+5. Paid students who stayed engaged throughout the year were the ones who paid annual subscriptions.
+6. The average amount of time spent watching television by free plan students is around 20 minutes. This implies that the free student is interested in the unlock content provided by the 365 application to their free plan students.
+7. It was difficult to predict the average number of minutes watched by paid students because each student has a different learning style. However, the average is around 540 minutes of content (roughly 2-3 extensive courses).
+
 ### Recommendation
+1. Monthly retargeting to free plan student using paid ads to increase their engagement with the apps
+
+### Limitation
+The data only cover data from 1 January 2022 - 31 October 2022
 
 ### References
 1. Udemy: Customer Behavior Analysis with SQL and Tableau
